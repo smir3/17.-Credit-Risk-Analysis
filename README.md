@@ -15,6 +15,7 @@ Once these analyses are complete, I will evaluate the performance of these model
 There were six machine learning models tested in this analysis.
 recall (sensitivity) for predicting diabetes is much lower than it is for predicting an absence of diabete
 
+Goal is to predict if a loan appliation is worthy of approval. good loan application is 0, and bad loan application is 1. 
 precision for bad loan application low means large number of false positives so unreliable positive classification, recall low for bad loan application means alot of false negatives. F1 score also low. 
 
 ***recall is predicting this is a high_risk group (higher value is good), prediction is saying this is not a high risk group (low value means likely to take non risk group and group as high risk). low group recall mean probability of predicting this is a low-risk group (high value means likelihood that high risk will be grouped as lowrisk), high prediction mean low-risk will not be identified.
