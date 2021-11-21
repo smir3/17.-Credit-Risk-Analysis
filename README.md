@@ -15,6 +15,8 @@ Once these analyses are complete, I will evaluate the performance of these model
 There were six machine learning models tested in this analysis.
 recall (sensitivity) for predicting diabetes is much lower than it is for predicting an absence of diabete
 
+precision for bad loan application low means large number of false positives so unreliable positive classification, recall low for bad loan application means alot of false negatives. F1 score also low. 
+
 ***recall is predicting this is a high_risk group (higher value is good), prediction is saying this is not a high risk group (low value means likely to take non risk group and group as high risk). low group recall mean probability of predicting this is a low-risk group (high value means likelihood that high risk will be grouped as lowrisk), high prediction mean low-risk will not be identified.
 
 1. Naive Random Oversampling: The balanced accuracy score was 65.7%, the prediction and recall score for the high_risk group was 1% and 71% respectively, and for the low_risk group it was 100% and 60%.
