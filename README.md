@@ -14,11 +14,11 @@ Once these analyses are complete, I will evaluate the performance of these model
 ## Results
 There were six machine learning models tested in this analysis.
 
-1. Naive Random Oversampling
-2. SMOTE Oversampling
-3. Undersampling
-4. Combinatation (Over and Under) Sampling
-5. Balanced Random Forest Classifier
+1. Naive Random Oversampling: The balanced accuracy score was 65.7%, the prediction and recall score for the high_risk group was 1% and 71% respectively, and for the low_risk group it was 100% and 60%.
+2. SMOTE Oversampling: The balanced accuracy score was 66.2%, the prediction and recall score for the high_risk group was 1% and 63% respectively, and for the low_risk group it was 100% and 69%.
+3. Undersampling: The balanced accuracy score was 54.4%, the prediction and recall score for the high_risk group was 1% and 69% respectively, and for the low_risk group it was 100% and 40%.
+4. Combinatation (Over and Under) Sampling: The balanced accuracy score was 64.5%, the prediction and recall score for the high_risk group was 1% and 72% respectively, and for the low_risk group it was 100% and 57%.
+5. Balanced Random Forest Classifier: The balanced accuracy score was 78.8%, the prediction and recall score for the high_risk group was 3% and 70% respectively, and for the low_risk group it was 100% and 87%.
 6. Easy Ensemble AdaBoost Classifier
 
  balanced accuracy score and the precision and recall scores of all six machine learning models
