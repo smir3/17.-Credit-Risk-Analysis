@@ -19,8 +19,10 @@ There were six machine learning models tested in this analysis.
 2. SMOTE Oversampling: The balanced accuracy score was 66.2%, the precisionn and recall score for the high_risk group was 1% and 63% respectively, and for the low_risk group it was 100% and 69%.
 3. Undersampling: The balanced accuracy score was 54.4%, the precision and recall score for the high_risk group was 1% and 69% respectively, and for the low_risk group it was 100% and 40%.
 4. Combinatation (Over and Under) Sampling: The balanced accuracy score was 64.5%, the precision and recall score for the high_risk group was 1% and 72% respectively, and for the low_risk group it was 100% and 57%.
-5. Balanced Random Forest Classifier: The balanced accuracy score was 78.9%, the precision and recall score for the high_risk group was 3% and 70% respectively, and for the low_risk group it was 100% and 87%.
-6. Easy Ensemble AdaBoost Classifier:  The balanced accuracy score was 92.2%%, the precision and recall score for the high_risk group was 7% and 91% respectively, and for the low_risk group it was 100% and 93%.
+![](randomforest.png)
+6. Balanced Random Forest Classifier: The balanced accuracy score was 78.9%, the precision and recall score for the high_risk group was 3% and 70% respectively, and for the low_risk group it was 100% and 87%.
+![](classifier.png)
+8. Easy Ensemble AdaBoost Classifier:  The balanced accuracy score was 92.2%%, the precision and recall score for the high_risk group was 7% and 91% respectively, and for the low_risk group it was 100% and 93%.
 
 ## Summary and Recommendations:
 
