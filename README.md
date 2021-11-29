@@ -1,14 +1,14 @@
-# Credit-Risk-Analysis
+# Machine Learning Models - Credit-Risk-Analysis
 
 ## Background, Purpose and Task
 
 Background and Purpose: 
 
-LendingClub is a peer-to-peer lending services company. LendingClub management is seeking to improve the reliability and efficiency of their loan experience. Jill-the lead Data Scientist-would like to use machine learning to predict credit risk. Using a good machine learning model to predict credit risk will lead to a more accurate identification of good candidates for loans, which will in turn lead to low default rates. 
+LendingClub is a peer-to-peer lending services company. LendingClub management is seeking to improve the reliability and efficiency of their loan experience. Using a good machine learning model to predict credit risk will lead to more accurate identification of good candidates for loans, which will in turn lead to low default rates. 
 
 Task:
 
-I have been tasked with assisting Jill in implementing this plan. Using the credit card dataset from LendingClub, I will test 6 different machine learning models. First, I will oversample the data using the RandomOverSampler and SMOTE models, and then undersample the data using the the ClusterCentroids model. Next, I will use the SMOTEENN model to implement a combinatorial approach of over and undersampling. I will then compare the BalancedRandomForestClassifier machine learning model with the EasyEnsembleClassifier to predict credit risk.
+Using the credit card dataset from LendingClub, I will test 6 different machine learning models. First, I will oversample the data using the RandomOverSampler and SMOTE models, and then undersample the data using the the ClusterCentroids model. Next, I will use the SMOTEENN model to implement a combinatorial approach of over and undersampling. I will then compare the BalancedRandomForestClassifier machine learning model with the EasyEnsembleClassifier to predict credit risk.
 
 Once these analyses are complete, I will evaluate the performance of these models to conclude whether its advisable to use them for predicting credit risk. 
 
